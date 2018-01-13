@@ -1,0 +1,3 @@
+# Algorithms
+
+This is a project where I will be doing some basic algorithms mostly inspired by courses from [MIT OpenCourseWare](https://ocw.mit.edu/index.htm) like [Introduction to algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/) and [Design and Analysis of Algorithm](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/index.htm).
