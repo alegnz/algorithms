@@ -5,7 +5,10 @@ import random
 import sorting
 
 INSERTION_SORT = 'insertion_sort'
-algorithm_choices = [INSERTION_SORT]
+MERGE_SORT ='merge_sort'
+
+algorithm_choices = [INSERTION_SORT,
+                     MERGE_SORT]
 
 parser = ArgumentParser('Test different sorting algorithms. You can pass a list of elements or a number of elements')
 
@@ -40,6 +43,8 @@ start_time = datetime.now()
 sorted_array = []
 if algorithm == INSERTION_SORT:
     sorted_array = sorting.insertion_sort(array)
+elif algorithm == MERGE_SORT:
+    sorted_array = sorting.merge_sort(array)
 
 end_time = datetime.now()
 
